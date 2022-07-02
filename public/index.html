@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="/images/tree.jpg" />  
+            <div class="content"></div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="/images/mountain.jpg"/>  
+            <div class="content"></div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="/images/beach.jpg"/>  
+            <div class="content"></div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="/images/alpine.jpg"/>  
+            <div class="content"></div>  
+        </div>    
+    </div>  
+    <a class="left" onclick="nextSlide(-1)">Previous</a>  
+    <a class="right" onclick="nextSlide(1)">Next</a>  
+    <script src="app.js"></script>
+</body>   
+</html>
